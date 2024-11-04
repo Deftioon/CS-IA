@@ -30,7 +30,7 @@ def authenticate(yaml_path: str) -> None:
 
     if authentication_status:   
         authenticator.logout('Logout', 'main')
-        if name == 'deftioon':
+        if name == 'admin':
             # st.switch_page("pages/admin.py")
             switch_page("admin")
     elif authentication_status == False:
